@@ -1,0 +1,153 @@
+body {background-color: red;
+margin:-8px;}
+
+.container{
+background-color:#edbd2b;
+width:100%;
+color:#edbd2b
+}
+@media(min-width:768px)
+{
+.dropbtn {
+display:none;
+}
+
+.dropdown {
+display:none;
+}
+
+.dropdown-content {
+  display: none;
+  }
+
+.dropdown-content a {
+  display: none;
+}
+}
+@media (max-width:767px)
+{
+.dropbtn {
+  background-color: red;
+  color:black;
+  text-shadow:2px 2px 2px #fffd82;
+  padding: 16px;
+  font-size: 30x;
+  font-weight:bold;
+  border: none;
+}
+
+.dropdown {
+  float:right;
+  padding:20px;
+  position: relative;
+  display: inline-block;
+border-color:black;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #f5b907;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+border-color:black;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: red;}
+}
+.navbar-header h1{font-family: 'Sora', sans-serif;
+text-transform:uppercase;
+font-size:50px;
+color:#d4312f;
+background-color:#edbd2b;
+text-shadow:2px 2px 2px #fffd82;
+margin-top:10px;
+margin-bottom:16px;
+padding:11px;
+line-height: .75;
+height:20%;
+}
+
+#logo{
+float:left;
+background-color:#edbd2b;
+margin-top:10px;
+margin-left:10px;
+padding :2px;
+}
+
+pre{font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Sora', sans-serif;
+text-shadow:1px 1px 1px black;
+color:white;
+padding:1px;
+background-color:#edbd2b;
+height:80px;width:100%;
+margin:-16px;}
+
+h2{font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Sora', sans-serif;
+text-shadow:1px 1px 1px white;
+font-size:30px;
+background-color:#edbd2b;
+opacity:.8;
+clear:both;
+}
+
+h3{
+text-shadow:1px 1px 1px white;
+font-size:20px;outline-style: outset;
+outline-color:red;
+background-color:#edbd2b;
+opacity:.7;
+}
+
+div .item{
+border:black;
+position:relative;
+width:80%;
+height:500px;
+background-color:#fadd7d;
+}
+
+div .item_img{
+padding:15px;
+border:black;
+}
+
+div .item_para{
+font-family: 'Sora', sans-serif;
+font-size : 15px;
+clear:both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
