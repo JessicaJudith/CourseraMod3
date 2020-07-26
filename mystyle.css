@@ -6,7 +6,7 @@ background-color:#edbd2b;
 width:100%;
 color:#edbd2b
 }
-@media(min-width:768px)
+@media(min-width:901px)
 {
 .dropbtn {
 display:none;
@@ -24,7 +24,7 @@ display:none;
   display: none;
 }
 }
-@media (max-width:767px)
+@media (max-width:900px)
 {
 .dropbtn {
   background-color: red;
